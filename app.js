@@ -10,7 +10,7 @@ num = function () {
   console.log(guessNumber);
 
   document.getElementById("num").value = "";
-  count += 1;
+  guess += 1;
   document.querySelector("check_btn").innerHTML = guess;
 
   if (guessNumber < randomNumber) {
